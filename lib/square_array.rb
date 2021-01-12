@@ -1,9 +1,9 @@
 
 
 def square_array(array)
-  counter = 0
-  while array[counter] do
+  count = 0
+  while count <= array.length do
     puts array[counter]
-counter += 1
+count += 1
   end
 end
