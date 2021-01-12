@@ -5,7 +5,7 @@ def square_array(array)
   new_array = []
   while count < array.length do
     new_array.push(array[count]**2)
-    binding.pry
+    #binding.pry
   count += 1
   end
   new_array
